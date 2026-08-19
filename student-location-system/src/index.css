@@ -1,0 +1,19 @@
+@tailwind components;
+@tailwind utilities;
+
+/* Leaflet map height fix */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+/* Smooth hover row */
+tbody tr {
+  transition: background-color 0.15s ease;
+  cursor: pointer;
+}
+
+/* Popup styling */
+.leaflet-popup-content {
+  margin: 10px 14px;
+}
